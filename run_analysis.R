@@ -3,7 +3,6 @@
 #****************************************PART 1**************************************** 
 # Merges the training and the test sets to create one data set
 #************************************************************************************** 
-
 destinationfilename<-"UCI_HAR_Dataset.zip"
 
 #Download data to working DIR
