@@ -25,7 +25,8 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 "run_analysis.R"- performs the operations/ tranformations defined in the transformation section below. The script can be loaded and run by the following command
 
-```source("run_analysis.R")
+```
+source("run_analysis.R")
 ```
 ##Transformation
 
