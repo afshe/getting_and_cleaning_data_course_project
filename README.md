@@ -3,7 +3,7 @@
 This is the repo for "Getting and Cleaning Data" Course Project. The purpose of this project is to demonstrate the ability to:
 
 - Read data from different files
-- Merge data into one file 
+- Merge data into one dataset
 - Tidy the merged data set to make it user friendly
 - Extract desired columns 
 - Finally,create a new data file from the tidied data set to perform aggregate operations grouped by a few columns
