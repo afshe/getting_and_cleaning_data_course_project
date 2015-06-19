@@ -1,6 +1,6 @@
 # Course Project - Getting and Cleaning Data
 
-This is the repo for "Getting and Cleaning Data" Course Project. The purpose of this project is to demonstrate the ability to
+This is the repo for "Getting and Cleaning Data" Course Project. The purpose of this project is to demonstrate the ability to:
 
 - Read data from different files
 - Merge data into one file 
