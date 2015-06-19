@@ -37,5 +37,11 @@ Merges the training and the test sets to create one data set
 |dfXtrain| Dataframe from "X_train.txt" file|
 |dftrainsubject| Dataframe from "subject_train.txt" file|
 |dftrainactivity| Dataframe from "y_train.txt" file|
+|dfXtest| Dataframe from "X_test.txt" file|
+|dftestsubject| Dataframe from "subject_test.txt" file|
+|dftestactivity| Dataframe from "y_test.txt" file|
+|traindataset| Combined "Train" dataset with data from dfXtrain,dftrainsubject and dftrainactivity dataframes (using "cbind")|
+|testdataset| Combined "Test" dataset with data from dfXtest,dftestsubject and dftestactivity dataframes (using "cbind")|
+|combineddataset| Train and Test records merged into this dataset using "rbind"|
 
 
