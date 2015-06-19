@@ -28,6 +28,50 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 ```
 source("run_analysis.R")
 ```
-##Transformation
+##Transformations
+
+###Part 1
+1. Download the UCI_HAR_Dataset.zip file from the internet to the working directory
+2. Unzip the input data set downloaded
+3. Read the following files in /train/ folder and combine the "train" dataset using "cbind" command
+  - X_train.txt
+  - subject_train.txt
+  - y_train.txt
+4. Read the following files in /test/ folder and combine the "test" dataset using "cbind" command
+  - X_test.txt
+  - subject_test.txt
+  - y_test.txt
+5. Merge all the combined "train" and test data set from step 3 and 4 into one data set
+6. Read the following file to add column names to the combined dataset from step 5. Name  the last two columns as "Subject" and "Activity"
+  - features.txt
+
+###Part 2
+7. Extracts only the measurements on the mean and standard deviation for each measurement from combined dataset (step6) , using the "grep" command
+8. Create a new dataset that will only have Means,Standard Deviations, Subject and Activity fields
+
+###Part 3
+9. Uses descriptive activity labels to name the activities in the data set. The Activity labels are read the second column of the following file. ( Replace "_" from the label with " " )
+- activity_labels.txt
+ 
+###Part 4
+10. Appropriately labels the data set with descriptive variable names. The following has been replaced to make data user friendly
+- Columns starting with "t" to "Time"
+- Columns starting with "f" to "Frequency"
+- Replace "-mean()" with "Mean"
+- Replace ".std" with "STD"
+- Replace "Acc" with "Accelerometer"
+- Replace "Mag" to "Magnitude"
+- Replace "-freq()" to "Frequency"
+- Replace "angle" withe "Angle"
+- Replace "gravity" with "Gravity"
+- Replace "tBody" with "TimeBody"
+- Replace "BodyBody" with "Body"
+
+###Part 5
+11. From the data set in Part 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+12. The mean of measurements are grouped by using "aggregate" command . To make this command work faster the following library is used 
+  - library(data.table)
+13. Tidy Dataset is written in a file "TidyDataSet.txt". ( this file is stored in the working directory
+
 
 
