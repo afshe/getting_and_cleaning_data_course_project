@@ -4,9 +4,9 @@ This is the repo for "Getting and Cleaning Data" Course Project. The purpose of 
 
 - Read data from different files
 - Merge data into one dataset
-- Tidy the merged data set to make it user friendly
-- Extract desired columns 
-- Finally,create a new data file from the tidied data set to perform aggregate operations grouped by a few columns
+- Tidy the merged dataset to make it user friendly
+- Extract desired columns from the merged dataset
+- Finally,create a new data file from the tidied dataset, to perform aggregate operations grouped by few columns
 
 The objective is to read the data from [Human Activity Recognition Using Samsung Galaxy S Smartphone Dataset] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip ). 
 
@@ -16,7 +16,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 # Files
 
-* run_analysis.R - Script to download, read, clean data and to create a new Tidy data set
+* run_analysis.R - Script to download, read, clean data and to create a new Tidy dataset
 * README.md - Overview of reporsitory, its contents and explains how the files and script are connected
 * CodeBook.md - describes the variables, the data, and any transformations or work that you performed to clean up the data
 * TidyDataSet.txt - Output of "run_analysis.R" .Tidy data file with means of each measurement by Subject and Activity
@@ -32,7 +32,7 @@ source("run_analysis.R")
 
 ###Part 1
 1. Download the UCI_HAR_Dataset.zip file from the internet to the working directory
-2. Unzip the input data set downloaded
+2. Unzip the input dataset downloaded
 3. Read the following files in /train/ folder and combine the "train" dataset using "cbind" command
   - X_train.txt
   - subject_train.txt
@@ -41,7 +41,7 @@ source("run_analysis.R")
   - X_test.txt
   - subject_test.txt
   - y_test.txt
-5. Merge all the combined "train" and test data set from step 3 and 4 into one data set
+5. Merge all the combined "train" and test dataset from step 3 and 4 into one dataset
 6. Read the following file to add column names to the combined dataset from step 5. Name  the last two columns as "Subject" and "Activity"
   - features.txt
 
@@ -50,11 +50,11 @@ source("run_analysis.R")
 2. Create a new dataset that will only have Means,Standard Deviations, Subject and Activity fields
 
 ###Part 3
-1. Uses descriptive activity labels to name the activities in the data set. The Activity labels are read the second column of the following file. ( Replace "_" from the label with " " )
+1. Uses descriptive activity labels to name the activities in the dataset. The Activity labels are read the second column of the following file. ( Replace "_" from the label with " " )
 - activity_labels.txt
  
 ###Part 4
-1. Appropriately labels the data set with descriptive variable names. The following has been replaced to make data user friendly
+1. Appropriately labels the dataset with descriptive variable names. The following has been replaced to make data user friendly
   - Columns starting with "t" to "Time"
   - Columns starting with "f" to "Frequency"
   - Replace "-mean()" with "Mean"
@@ -68,7 +68,7 @@ source("run_analysis.R")
   - Replace "BodyBody" with "Body"
 
 ###Part 5
-1. From the data set in Part 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+1. From the dataset in Part 4, creates a second, independent tidy dataset with the average of each variable for each activity and each subject.
 2. The mean of measurements are grouped by using "aggregate" command . To make this command work faster the following library is used 
   - library(data.table)
 3. Tidy Dataset is written in a file "TidyDataSet.txt". ( this file is stored in the working directory
