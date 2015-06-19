@@ -106,13 +106,94 @@ Here are the columns in the TidyDataSet.txt File
 | Column Name | Description |
 | ----------- | ------------|
 | Subject | An identifier of the subject who carried out the experiment|
-| Activity| Activity performed by the "Subject" during experiments. See Activities list below|
+| Activity| Activity performed by the "Subject" during experiments. See Activities list below |
 | TimeBodyAccelerometerMean()-X | Mean (by Subject and Activity) of TimeBodyAccelerometerMean()-X |
 | TimeBodyAccelerometerMean()-Y | Mean (by Subject and Activity) of TimeBodyAccelerometerMean()-Y |
 | TimeBodyAccelerometerMean()-Z | Mean (by Subject and Activity) of TimeBodyAccelerometerMean()-Z|
 | TimeBodyAccelerometerSTD()-X | Mean(by Subject and Activity) of TimeBodyAccelerometerSTD()-X|
 | TimeBodyAccelerometerSTD()-Y | Mean(by Subject and Activity) of TimeBodyAccelerometerSTD()-Y|
 | TimeBodyAccelerometerSTD()-Z | Mean(by Subject and Activity) of TimeBodyAccelerometerSTD()-Z|
+| TimeGravityAccelerometerMean()-X |  Mean (by Subject and Activity) of TimeGravityAccelerometerMean()-X | 
+| TimeGravityAccelerometerMean()-Y |  Mean (by Subject and Activity) of TimeGravityAccelerometerMean()-Y | 
+| TimeGravityAccelerometerMean()-Z |  Mean (by Subject and Activity) of TimeGravityAccelerometerMean()-Z | 
+| TimeGravityAccelerometerSTD()-X |  Mean (by Subject and Activity) of TimeGravityAccelerometerSTD()-X | 
+| TimeGravityAccelerometerSTD()-Y |  Mean (by Subject and Activity) of TimeGravityAccelerometerSTD()-Y | 
+| TimeGravityAccelerometerSTD()-Z |  Mean (by Subject and Activity) of TimeGravityAccelerometerSTD()-Z | 
+| TimeBodyAccelerometerJerkMean()-X |  Mean (by Subject and Activity) of TimeBodyAccelerometerJerkMean()-X | 
+| TimeBodyAccelerometerJerkMean()-Y |  Mean (by Subject and Activity) of TimeBodyAccelerometerJerkMean()-Y | 
+| TimeBodyAccelerometerJerkMean()-Z |  Mean (by Subject and Activity) of TimeBodyAccelerometerJerkMean()-Z | 
+| TimeBodyAccelerometerJerkSTD()-X |  Mean (by Subject and Activity) of TimeBodyAccelerometerJerkSTD()-X | 
+| TimeBodyAccelerometerJerkSTD()-Y |  Mean (by Subject and Activity) of TimeBodyAccelerometerJerkSTD()-Y | 
+| TimeBodyAccelerometerJerkSTD()-Z |  Mean (by Subject and Activity) of TimeBodyAccelerometerJerkSTD()-Z | 
+| TimeBodyGyroMean()-X |  Mean (by Subject and Activity) of TimeBodyGyroMean()-X | 
+| TimeBodyGyroMean()-Y |  Mean (by Subject and Activity) of TimeBodyGyroMean()-Y | 
+| TimeBodyGyroMean()-Z |  Mean (by Subject and Activity) of TimeBodyGyroMean()-Z | 
+| TimeBodyGyroSTD()-X |  Mean (by Subject and Activity) of TimeBodyGyroSTD()-X | 
+| TimeBodyGyroSTD()-Y |  Mean (by Subject and Activity) of TimeBodyGyroSTD()-Y | 
+| TimeBodyGyroSTD()-Z |  Mean (by Subject and Activity) of TimeBodyGyroSTD()-Z | 
+| TimeBodyGyroJerkMean()-X |  Mean (by Subject and Activity) of TimeBodyGyroJerkMean()-X | 
+| TimeBodyGyroJerkMean()-Y |  Mean (by Subject and Activity) of TimeBodyGyroJerkMean()-Y | 
+| TimeBodyGyroJerkMean()-Z |  Mean (by Subject and Activity) of TimeBodyGyroJerkMean()-Z | 
+| TimeBodyGyroJerkSTD()-X |  Mean (by Subject and Activity) of TimeBodyGyroJerkSTD()-X | 
+| TimeBodyGyroJerkSTD()-Y |  Mean (by Subject and Activity) of TimeBodyGyroJerkSTD()-Y | 
+| TimeBodyGyroJerkSTD()-Z |  Mean (by Subject and Activity) of TimeBodyGyroJerkSTD()-Z | 
+| TimeBodyAccelerometerMagnitudeMean() |  Mean (by Subject and Activity) of TimeBodyAccelerometerMagnitudeMean() | 
+| TimeBodyAccelerometerMagnitudeSTD() |  Mean (by Subject and Activity) of TimeBodyAccelerometerMagnitudeSTD() | 
+| TimeGravityAccelerometerMagnitudeMean() |  Mean (by Subject and Activity) of TimeGravityAccelerometerMagnitudeMean() | 
+| TimeGravityAccelerometerMagnitudeSTD() |  Mean (by Subject and Activity) of TimeGravityAccelerometerMagnitudeSTD() | 
+| TimeBodyAccelerometerJerkMagnitudeMean() |  Mean (by Subject and Activity) of TimeBodyAccelerometerJerkMagnitudeMean() | 
+| TimeBodyAccelerometerJerkMagnitudeSTD() |  Mean (by Subject and Activity) of TimeBodyAccelerometerJerkMagnitudeSTD() | 
+| TimeBodyGyroMagnitudeMean() |  Mean (by Subject and Activity) of TimeBodyGyroMagnitudeMean() | 
+| TimeBodyGyroMagnitudeSTD() |  Mean (by Subject and Activity) of TimeBodyGyroMagnitudeSTD() | 
+| TimeBodyGyroJerkMagnitudeMean() |  Mean (by Subject and Activity) of TimeBodyGyroJerkMagnitudeMean() | 
+| TimeBodyGyroJerkMagnitudeSTD() |  Mean (by Subject and Activity) of TimeBodyGyroJerkMagnitudeSTD() | 
+| FrequencyBodyAccelerometerMean()-X |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerMean()-X | 
+| FrequencyBodyAccelerometerMean()-Y |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerMean()-Y | 
+| FrequencyBodyAccelerometerMean()-Z |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerMean()-Z | 
+| FrequencyBodyAccelerometerSTD()-X |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerSTD()-X | 
+| FrequencyBodyAccelerometerSTD()-Y |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerSTD()-Y | 
+| FrequencyBodyAccelerometerSTD()-Z |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerSTD()-Z | 
+| FrequencyBodyAccelerometerMeanFreq()-X |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerMeanFreq()-X | 
+| FrequencyBodyAccelerometerMeanFreq()-Y |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerMeanFreq()-Y | 
+| FrequencyBodyAccelerometerMeanFreq()-Z |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerMeanFreq()-Z | 
+| FrequencyBodyAccelerometerJerkMean()-X |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerJerkMean()-X | 
+| FrequencyBodyAccelerometerJerkMean()-Y |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerJerkMean()-Y | 
+| FrequencyBodyAccelerometerJerkMean()-Z |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerJerkMean()-Z | 
+| FrequencyBodyAccelerometerJerkSTD()-X |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerJerkSTD()-X | 
+| FrequencyBodyAccelerometerJerkSTD()-Y |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerJerkSTD()-Y | 
+| FrequencyBodyAccelerometerJerkSTD()-Z |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerJerkSTD()-Z | 
+| FrequencyBodyAccelerometerJerkMeanFreq()-X |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerJerkMeanFreq()-X | 
+| FrequencyBodyAccelerometerJerkMeanFreq()-Y |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerJerkMeanFreq()-Y | 
+| FrequencyBodyAccelerometerJerkMeanFreq()-Z |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerJerkMeanFreq()-Z | 
+| FrequencyBodyGyroMean()-X |  Mean (by Subject and Activity) of FrequencyBodyGyroMean()-X | 
+| FrequencyBodyGyroMean()-Y |  Mean (by Subject and Activity) of FrequencyBodyGyroMean()-Y | 
+| FrequencyBodyGyroMean()-Z |  Mean (by Subject and Activity) of FrequencyBodyGyroMean()-Z | 
+| FrequencyBodyGyroSTD()-X |  Mean (by Subject and Activity) of FrequencyBodyGyroSTD()-X | 
+| FrequencyBodyGyroSTD()-Y |  Mean (by Subject and Activity) of FrequencyBodyGyroSTD()-Y | 
+| FrequencyBodyGyroSTD()-Z |  Mean (by Subject and Activity) of FrequencyBodyGyroSTD()-Z | 
+| FrequencyBodyGyroMeanFreq()-X |  Mean (by Subject and Activity) of FrequencyBodyGyroMeanFreq()-X | 
+| FrequencyBodyGyroMeanFreq()-Y |  Mean (by Subject and Activity) of FrequencyBodyGyroMeanFreq()-Y | 
+| FrequencyBodyGyroMeanFreq()-Z |  Mean (by Subject and Activity) of FrequencyBodyGyroMeanFreq()-Z | 
+| FrequencyBodyAccelerometerMagnitudeMean() |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerMagnitudeMean() | 
+| FrequencyBodyAccelerometerMagnitudeSTD() |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerMagnitudeSTD() | 
+| FrequencyBodyAccelerometerMagnitudeMeanFreq() |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerMagnitudeMeanFreq() | 
+| FrequencyBodyAccelerometerJerkMagnitudeMean() |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerJerkMagnitudeMean() | 
+| FrequencyBodyAccelerometerJerkMagnitudeSTD() |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerJerkMagnitudeSTD() | 
+| FrequencyBodyAccelerometerJerkMagnitudeMeanFreq() |  Mean (by Subject and Activity) of FrequencyBodyAccelerometerJerkMagnitudeMeanFreq() | 
+| FrequencyBodyGyroMagnitudeMean() |  Mean (by Subject and Activity) of FrequencyBodyGyroMagnitudeMean() | 
+| FrequencyBodyGyroMagnitudeSTD() |  Mean (by Subject and Activity) of FrequencyBodyGyroMagnitudeSTD() | 
+| FrequencyBodyGyroMagnitudeMeanFreq() |  Mean (by Subject and Activity) of FrequencyBodyGyroMagnitudeMeanFreq() | 
+| FrequencyBodyGyroJerkMagnitudeMean() |  Mean (by Subject and Activity) of FrequencyBodyGyroJerkMagnitudeMean() | 
+| FrequencyBodyGyroJerkMagnitudeSTD() |  Mean (by Subject and Activity) of FrequencyBodyGyroJerkMagnitudeSTD() | 
+| FrequencyBodyGyroJerkMagnitudeMeanFreq() |  Mean (by Subject and Activity) of FrequencyBodyGyroJerkMagnitudeMeanFreq() | 
+| Angle(TimeBodyAccelerometerMean,Gravity) |  Mean (by Subject and Activity) of Angle(TimeBodyAccelerometerMean,Gravity) | 
+| Angle(TimeBodyAccelerometerJerkMean),GravityMean) |  Mean (by Subject and Activity) of Angle(TimeBodyAccelerometerJerkMean),GravityMean) | 
+| Angle(TimeBodyGyroMean,GravityMean) |  Mean (by Subject and Activity) of Angle(TimeBodyGyroMean,GravityMean) | 
+| Angle(TimeBodyGyroJerkMean,GravityMean) |  Mean (by Subject and Activity) of Angle(TimeBodyGyroJerkMean,GravityMean) | 
+| Angle(X,GravityMean) |  Mean (by Subject and Activity) of Angle(X,GravityMean) | 
+| Angle(Y,GravityMean) |  Mean (by Subject and Activity) of Angle(Y,GravityMean) | 
+| Angle(Z,GravityMean) |  Mean (by Subject and Activity) of Angle(Z,GravityMean) | 
+
 
 
 
