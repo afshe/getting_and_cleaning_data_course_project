@@ -46,32 +46,32 @@ source("run_analysis.R")
   - features.txt
 
 ###Part 2
-7. Extracts only the measurements on the mean and standard deviation for each measurement from combined dataset (step6) , using the "grep" command
-8. Create a new dataset that will only have Means,Standard Deviations, Subject and Activity fields
+1. Extracts only the measurements on the mean and standard deviation for each measurement from combined dataset (step6) , using the "grep" command
+2. Create a new dataset that will only have Means,Standard Deviations, Subject and Activity fields
 
 ###Part 3
-9. Uses descriptive activity labels to name the activities in the data set. The Activity labels are read the second column of the following file. ( Replace "_" from the label with " " )
+1. Uses descriptive activity labels to name the activities in the data set. The Activity labels are read the second column of the following file. ( Replace "_" from the label with " " )
 - activity_labels.txt
  
 ###Part 4
-10. Appropriately labels the data set with descriptive variable names. The following has been replaced to make data user friendly
-- Columns starting with "t" to "Time"
-- Columns starting with "f" to "Frequency"
-- Replace "-mean()" with "Mean"
-- Replace ".std" with "STD"
-- Replace "Acc" with "Accelerometer"
-- Replace "Mag" to "Magnitude"
-- Replace "-freq()" to "Frequency"
-- Replace "angle" withe "Angle"
-- Replace "gravity" with "Gravity"
-- Replace "tBody" with "TimeBody"
-- Replace "BodyBody" with "Body"
+1. Appropriately labels the data set with descriptive variable names. The following has been replaced to make data user friendly
+  - Columns starting with "t" to "Time"
+  - Columns starting with "f" to "Frequency"
+  - Replace "-mean()" with "Mean"
+  - Replace ".std" with "STD"
+  - Replace "Acc" with "Accelerometer"
+  - Replace "Mag" to "Magnitude"
+  - Replace "-freq()" to "Frequency"
+  - Replace "angle" withe "Angle"
+  - Replace "gravity" with "Gravity"
+  - Replace "tBody" with "TimeBody"
+  - Replace "BodyBody" with "Body"
 
 ###Part 5
-11. From the data set in Part 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-12. The mean of measurements are grouped by using "aggregate" command . To make this command work faster the following library is used 
+1. From the data set in Part 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+2. The mean of measurements are grouped by using "aggregate" command . To make this command work faster the following library is used 
   - library(data.table)
-13. Tidy Dataset is written in a file "TidyDataSet.txt". ( this file is stored in the working directory
+3. Tidy Dataset is written in a file "TidyDataSet.txt". ( this file is stored in the working directory
 
 
 
