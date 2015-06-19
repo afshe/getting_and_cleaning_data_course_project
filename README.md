@@ -51,7 +51,7 @@ source("run_analysis.R")
 
 ###Part 3
 1. Uses descriptive activity labels to name the activities in the dataset. The Activity labels are read the second column of the following file. ( Replace "_" from the label with " " )
-- activity_labels.txt
+  - activity_labels.txt
  
 ###Part 4
 1. Appropriately labels the dataset with descriptive variable names. The following has been replaced to make data user friendly
