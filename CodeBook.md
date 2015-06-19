@@ -106,7 +106,7 @@ Here are the columns in the TidyDataSet.txt File
 | Column Name | Description |
 | ----------- | ------------|
 | Subject | An identifier of the subject who carried out the experiment|
-| Activity| Activity performed by the "Subject" during experiments. See Activities list below |
+| Activity| Activity performed by the "Subject" during experiments |
 | TimeBodyAccelerometerMean()-X | Mean (by Subject and Activity) of TimeBodyAccelerometerMean()-X |
 | TimeBodyAccelerometerMean()-Y | Mean (by Subject and Activity) of TimeBodyAccelerometerMean()-Y |
 | TimeBodyAccelerometerMean()-Z | Mean (by Subject and Activity) of TimeBodyAccelerometerMean()-Z|
