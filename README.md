@@ -75,4 +75,4 @@ source("run_analysis.R")
 
 ## More about Metadata, Variables and Files
 
-See CodeBook.md (https://github.com/afshe/getting_and_cleaning_data_course_project/blob/master/CodeBook.md) for more details
+See [CodeBook.md] (https://github.com/afshe/getting_and_cleaning_data_course_project/blob/master/CodeBook.md) for more details
