@@ -68,7 +68,7 @@ source("run_analysis.R")
   - Replace "BodyBody" with "Body"
 
 ###Part 5
-1. From the dataset in Part 4, creates a second, independent tidy dataset with the average of each variable for each activity and each subject.
+1. From the dataset in Part 4, creates a second, independent tidy dataset with the mean of each variable calculated by subject and activity.
 2. The mean of measurements are grouped by using "aggregate" command . To make this command work faster the following library is used 
   - library(data.table)
 3. Tidy Dataset is written in a file "TidyDataSet.txt". ( this file is stored in the working directory
