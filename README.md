@@ -73,5 +73,6 @@ source("run_analysis.R")
   - library(data.table)
 3. Tidy Dataset is written in a file "TidyDataSet.txt". ( this file is stored in the working directory
 
+## More about Metadata, Variables and Files
 
-
+See CodeBook.md for more details
